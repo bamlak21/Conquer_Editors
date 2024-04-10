@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Font Awesome cdn -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+    <!-- Swiper Js -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper@7/swiper-bundle.min.css"
+    />
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"
+    ></script>
+    <script type="text/javascript">
+      (function () {
+        emailjs.init("3asQNyRB9dSkbVQ67");
+      })();
+    </script>
+    <!-- Lordicon cdn -->
+    <script src="https://cdn.lordicon.com/lordicon.js"></script>
+    <!-- Custom css link -->
+    <link rel="stylesheet" href="./css/animation.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Conquer Agency</title>
+  </head>
+  <body>
+    <!-- Nav bar -->
+    <header class="header">
+      <a href="#">
+        <span>Conquer Agency</span>
+      </a>
+      <nav class="navbar">
+        <a class="blue" href="./about.html">about</a>
+        <a class="blue" href="./service.html">services</a>
+        <a class="blue" href="./portfolio.html">Portfolio</a>
+        <a class="blue" href="#testimonial">Testimonial</a
+        ><a class="contact-border" href="./contact.html"> Contact </a>
+      </nav>
+
+      <div id="menu-btn" class="fas fa-bars"></div>
+    </header>
+    <!-- Nav bar end -->
+
+    <!-- HERO -->
+    <section class="hero">
+      <div class="video-container">
+        <video
+          src="./vid/video_2023-10-30_21-46-20.mp4"
+          autoplay
+          muted
+          loop
+        ></video>
+      </div>
+      <div class="hero-content hidden">
+        <h2>
+          Get Noticed With Our Stand Out Video Editing And Thumbnail Design.
+        </h2>
+
+        <button><a href="./service.html">Find out more.</a></button>
+      </div>
+    </section>
+    <!-- Hero end -->
+
+    <!-- About -->
+    <section class="about">
+      <div class="about-content">
+        <div class="left-content hidden">
+          <h4>Hi, there!</h4>
+          <h2>We are Conquer Agency</h2>
+        </div>
+        <div class="right-content hidden">
+          <p>
+            we understand the power of YouTube and its potential for creators,
+            entrepreneurs, and businesses to reach global audience.
+          </p>
+          <p>
+            With over five years of experience in the YouTube agency niche, we
+            specialize in thumbnail design, video editing, and YouTube SEO. Our
+            exceptional services have helped numerous clients grow their
+            channels, engage with their audience, and maximize their reach. Let
+            us help you conquer the YouTube world with our proven strategies and
+            expertise.
+          </p>
+          <button><a href="./about.html">Learn More</a></button>
+        </div>
+      </div>
+    </section>
+
+    <!-- About end -->
+
+    <!-- Service -->
+    <section class="service">
+      <div class="service-content">
+        <h4>Our Services</h4>
+        <h2>Take your videos to the next level</h2>
+        <!-- <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia
+          error repellendus nobis
+        </p>
+        <p>aliquam laborum veniam consequuntur! Ipsa maxime dicta ex.</p> -->
+        <div class="service-box">
+          <div class="box hidden">
+            <lord-icon
+              src="https://cdn.lordicon.com/abwrkdvl.json"
+              trigger="loop"
+              colors="primary:#e83a30,secondary:#e83a30"
+              class="lord-icon"
+            >
+            </lord-icon>
+            <h3>YouTube SEO</h3>
+            <p>
+              Our YouTube SEO experts optimize your videos with targeted
+              keywords, descriptions, and tags to improve visibility, attract
+              organic traffic, and grow your subscriber base.
+            </p>
+          </div>
+
+          <div class="box hidden">
+            <lord-icon
+              src="https://cdn.lordicon.com/msrokfyb.json"
+              trigger="loop"
+              stroke="bold"
+              colors="primary:#e83a30,secondary:#e83a30"
+              class="lord-icon"
+            >
+            </lord-icon>
+
+            <h3>Video Editing</h3>
+            <p>
+              Our skilled video editors bring magic to your YouTube content with
+              attention to detail and a strong storytelling sense. They enhance
+              your videos with engaging intros/outros, improving their overall
+              quality.
+            </p>
+          </div>
+          <div class="box hidden">
+            <lord-icon
+              src="https://cdn.lordicon.com/rehjpyyh.json"
+              trigger="loop"
+              stroke="bold"
+              state="morph-sea"
+              colors="primary:#e83a30,secondary:#e83a30"
+              class="lord-icon"
+            >
+            </lord-icon>
+            <h3>Thumbnail Design</h3>
+            <p>
+              Our expert designers create captivating YouTube thumbnails that
+              reflect your brand and entice viewers to click and watch your
+              videos, making your content stand out.
+            </p>
+          </div>
+          <div class="box hidden">
+            <lord-icon
+              src="https://cdn.lordicon.com/wzrwaorf.json"
+              trigger="loop"
+              stroke="bold"
+              colors="primary:#e83a30,secondary:#e83a30"
+              class="lord-icon"
+            >
+            </lord-icon>
+            <h3>YouTube Management</h3>
+            <p>
+              Our YouTube Management Service is designed to help content
+              creators and businesses maximize their presence and success on the
+              world's largest video-sharing platform.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Service end -->
+
+    <!-- Portfolio -->
+    <section class="portfolio">
+      <div class="portfolio-content">
+        <div class="left-content">
+          <h3>Featured Work</h3>
+          <h2>Some of our work</h2>
+          <p>
+            We specialized in enhancing the visual appeal and discoverability of
+            YouTube videos. we worked closely with content creators to create
+            engaging and professional video edits that captured viewers'
+            attention.
+          </p>
+          <div class="work hidden">
+            <img src="./img/Donkey.png" alt="" />
+            <h3>Donkey Tube</h3>
+            <button><a href="./portfolio.html#donkey">Learn More</a></button>
+          </div>
+          <div class="work hidden">
+            <img src="./img/port.jpg" alt="" />
+            <h3>Arturo Duarte</h3>
+            <button><a href="./portfolio.html#yemaru">Learn More</a></button>
+          </div>
+        </div>
+        <div class="right-content hidden">
+          <div class="work">
+            <img src="./img/yonas.png" alt="" />
+            <h3>Yonas Moh</h3>
+            <button><a href="./portfolio.html#yonas">Learn More</a></button>
+          </div>
+          <div class="work hidden">
+            <img src="./img/Donkey.png" alt="" />
+            <h3>work</h3>
+            <button><a href="./portfolio.html#donkey">Learn More</a></button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Portfolio End -->
+
+    <!-- Testimonial -->
+    <section class="testimonial" id="testimonial">
+      <div class="testimonial-content">
+        <h4>Testimonial</h4>
+        <h2>Why our Clients love us</h2>
+        <div class="testimonial-box">
+          <div class="t-box hidden">
+            <img src="./img/star.png" alt="" />
+            <img src="./img/star.png" alt="" />
+            <img src="./img/star.png" alt="" />
+            <img src="./img/star.png" alt="" />
+            <p>
+              "Conquer has been an absolute game-changer for my YouTube channel.
+              Their exceptional services have propelled my content to new
+              heights."
+            </p>
+            <h2>-Yonas Moh</h2>
+          </div>
+          <div class="t-box hidden">
+            <img src="./img/star.png" alt="" />
+            <img src="./img/star.png" alt="" />
+            <img src="./img/star.png" alt="" />
+            <img src="./img/star.png" alt="" />
+            <p>
+              "Working with Conquer has been an incredible experience.Their
+              dedication, professionalism, and attention to detail are
+              unmatched."
+            </p>
+            <h2>-Amanuel</h2>
+          </div>
+          <div class="t-box hidden">
+            <img src="./img/star.png" alt="" />
+            <img src="./img/star.png" alt="" />
+            <img src="./img/star.png" alt="" />
+            <img src="./img/star.png" alt="" />
+            <p>
+              "Conquer has been an invaluable asset to my YouTube journey. Their
+              team's deep understanding of the YouTube platform and their
+              innovative strategies have transformed my channel's performance."
+            </p>
+            <h2>-Emily</h2>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Testimonial End -->
+
+    <!-- contact -->
+    <section class="contact">
+      <div class="contact-content">
+        <div class="left hidden">
+          <h2>Ready to take your YouTube channel to the next level?</h2>
+          <p>Let's Have A Free Discovery Call To See If It's Right For You</p>
+        </div>
+        <form onsubmit="sendEmail()" class="Right hidden">
+          <label>Don't be shy Book a call </label>
+          <input
+            type="text"
+            name="name"
+            id="name"
+            placeholder="Name"
+            required
+          />
+          <input
+            type="email"
+            name="email"
+            id="email"
+            placeholder="E-mail"
+            required
+          />
+          <input
+            type="number"
+            name="phone"
+            id="phone"
+            placeholder="Phone No."
+            required
+          />
+          <textarea
+            name="message"
+            id="message"
+            placeholder="Message"
+            required
+          ></textarea>
+          <button type="submit">Submit</button>
+        </form>
+      </div>
+    </section>
+    <!-- contact End -->
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="footer-content">
+        <div class="socials">
+          <a
+            target="_blank"
+            href="https://www.facebook.com/Conquershirt"
+            class="fab fa-facebook-f"
+          ></a>
+          <a
+            target="_blank"
+            href="https://t.me/Conquer_313"
+            class="fab fa-telegram"
+          ></a>
+          <a
+            target="_blank"
+            href="https://www.instagram.com/conqueragency1/"
+            class="fab fa-instagram"
+          ></a>
+        </div>
+        <div class="bottom">
+          <div class="bottom-left">
+            <h2>Get noticed</h2>
+            <p>Reach new heights</p>
+          </div>
+          <div class="bottom-right">
+            <h2>
+              &copy; Conquer Agency <span id="year"></span>, All rights Reserved
+            </h2>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- Footer End -->
+
+    <!-- JS link -->
+    <script defer src="./js/main.js"></script>
+  </body>
+</html>
